@@ -25,7 +25,6 @@ const takeData = async (url_api) => {
   } catch (error) {
     console.error("no sirve");
   }
-  console.log(maxX);
 };
 takeData(URL);
 function changeAnime() {
@@ -36,7 +35,6 @@ function changeFact() {
   y = Math.floor(Math.random() * maxY);
   takeData(URL);
 }
-console.log(maxX);
 
 //* Promise way
 // fetch(URL)
